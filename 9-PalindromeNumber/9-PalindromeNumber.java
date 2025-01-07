@@ -10,8 +10,13 @@ class Solution {
 
 
         }
+if (original == rev){
+ return true ;
+}
+else {
+    return false;
+}
 
-return original == rev;
         
     }
 }
